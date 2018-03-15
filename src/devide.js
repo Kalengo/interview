@@ -10,7 +10,7 @@ module.exports = function (arr, k) {
 
   const map = new Map()
 
-  // 开始分组
+  // 开始分组, 时间复杂度为O(n^2)
   for (let i = 0; i < groupNum; i++){
     
     const group = []
