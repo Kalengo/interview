@@ -3,7 +3,7 @@ module.exports = function (arr, k) {
 
   const groupNum = arr.length / k // 分k组
 
-  // 随机打乱heros数组的顺序
+  // 随机打乱数组的顺序
   arr.sort(() => { 
     return 0.5 - Math.random()
   })
